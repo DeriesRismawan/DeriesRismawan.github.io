@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar span {
+    color: white;
+    font-weight: bold;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar .btn {
+    border-radius: 20px;
+    font-style: italic;
+    
+}
+#banner {
+    position: relative;
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.wafe {
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+}
+
+.title {
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.ban-img {
+    position: relative;
+    z-index: 1000;
+}
+
+#about{
+    padding: 80px 0;
+}
+
+.about{
+    padding: 20px;
+}
+
+.about img {
+    margin-top: 10px;
+}
+
+.about h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#layanan {
+    padding: 70px 0;
+    background-color: #fff;
+}
+
+#layanan h4 {
+    margin-top: 15%;
+}
+
+#layanan ul li {
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 15px;
+    
+}
+
+#layanan ul li:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
+    text-shadow: 2px 4px 8px #333;
+}
+
+#layanan .btn{
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+
+
+#contact {
+    padding: 5px 0;
+}
+
+
+.contact {
+    margin-top: 5%;
+}
+.contact .btn{
+    border-radius: 10px;
+}
+
+
+#footer{
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+    color: white;
+    padding: 5px ;
+}
